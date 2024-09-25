@@ -488,12 +488,14 @@ a {
     #aws-img {
         height: 2em;
     }
-}
-@media (max-width: 350px) {
     #btn-subir-home {
         height: 5em;
         width: 5em;
     }
+}
+
+@media (max-width: 350px) {
+
 
     #btn-subir-home>img {
         height: 3em;
@@ -902,10 +904,6 @@ a {
 
 /* ENTRE 380 E 415 */
 @media ((min-width: 380px) and (max-width: 415px)) {
-    #btn-subir-home {
-        height: 5em;
-        width: 5em;
-    }
 
     #btn-subir-home>img {
         height: 3em;
@@ -1112,11 +1110,6 @@ a {
 /* ENTRE 415 E 450 */
 
 @media ((min-width: 415px) and (max-width: 480px)) {
-    #btn-subir-home {
-        height: 5em;
-        width: 5em;
-    }
-
     #btn-subir-home>img {
         height: 3em;
     }
@@ -1129,10 +1122,6 @@ a {
 
     a {
         font-size: 0.9em;
-    }
-
-    #main-home {
-        height: 33em;
     }
 
     #nome-e-cargo {

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,11 +20,14 @@
     border-radius: 50%;
     cursor: pointer;
     z-index: 1000;
-    opacity: 0; /* Inicialmente invisível */
-    transition: opacity 0.3s ease; /* Transição suave para a opacidade */ /* Garante que o botão fique acima de outros elementos */
+    opacity: 0;
+    /* Inicialmente invisível */
+    transition: opacity 0.3s ease;
+    /* Transição suave para a opacidade */
+    /* Garante que o botão fique acima de outros elementos */
 }
 
-#btn-subir-home > img {
+#btn-subir-home>img {
     height: 4em;
 }
 
@@ -42,29 +45,37 @@ html {
     /* Ajusta a imagem para cobrir todo o fundo */
 }
 
-nav{
+nav {
     padding-top: 1.1em;
 }
 
 
 
 nav ul {
-    list-style-type: none; /* Remove os marcadores */
+    list-style-type: none;
+    /* Remove os marcadores */
     padding: 0;
-    margin: 0; /* Remove o padding padrão */
+    margin: 0;
+    /* Remove o padding padrão */
     padding-top: 1%;
-    display: flex; /* Alinha os itens na horizontal */
-    justify-content: center; /* Centraliza os itens */
-    gap: 10%; /* Espaçamento entre os itens */
-    
+    display: flex;
+    /* Alinha os itens na horizontal */
+    justify-content: center;
+    /* Centraliza os itens */
+    gap: 10%;
+    /* Espaçamento entre os itens */
+
     /* Remove a margem padrão */
 }
 
 a {
-    text-decoration: none; /* Remove o sublinhado dos links */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
     color: black;
-    font-family: "Tauri", sans-serif; /* Cor do texto */
-    font-size: 1.3em; /* Tamanho da fonte */
+    font-family: "Tauri", sans-serif;
+    /* Cor do texto */
+    font-size: 1.3em;
+    /* Tamanho da fonte */
 }
 
 #main-home {
@@ -75,7 +86,7 @@ a {
     /* background-color: blue; */
 }
 
-#nome-e-cargo{
+#nome-e-cargo {
     display: flex;
     flex-direction: column;
     padding-left: 5em;
@@ -85,7 +96,7 @@ a {
 }
 
 
-#nome-e-cargo > h1{
+#nome-e-cargo>h1 {
     font-size: 5.5em;
     /* background-color: aqua; */
     color: #4C4C4C;
@@ -95,12 +106,12 @@ a {
     padding: 0;
 }
 
-#nome-e-cargo > p {
+#nome-e-cargo>p {
     font-size: 4em;
     color: hsl(274, 97%, 27%);
     /* background-color: brown; */
     font-family: "Poppins", sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
     padding: 0;
     margin: 0;
     letter-spacing: 0.5em;
@@ -113,11 +124,12 @@ a {
     /* background-color: bisque; */
     width: fit-content;
     padding-top: 6em;
-    position: relative; /* Necessário para que o cover-wpp seja posicionado em relação a este elemento */
+    position: relative;
+    /* Necessário para que o cover-wpp seja posicionado em relação a este elemento */
 
 }
 
-#div-btn-talk > a {
+#div-btn-talk>a {
     background-color: #8B05CA;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -133,30 +145,31 @@ a {
     justify-content: center;
     gap: 0.7em;
     transition: 0.5s;
- 
+
 }
 
 
-#div-btn-talk > a:hover {
+#div-btn-talk>a:hover {
     background-color: #14c900;
     color: white;
     transition: 0.5s;
 }
 
-#div-btn-talk > a>  img {
-display: none;    height: 1.5em;
+#div-btn-talk>a>img {
+    display: none;
+    height: 1.5em;
 
 }
 
-#about-me{
+#about-me {
     height: 100%;
     background-image: url(../assets/other/fundo-tela-principal\ \(2\).jpg);
 }
 
-#main-about-me{
+#main-about-me {
     width: 100%;
     height: 100%;
-    padding: 6em 0em ;
+    padding: 6em 0em;
     display: flex;
     align-items: center;
 }
@@ -170,16 +183,16 @@ display: none;    height: 1.5em;
     /* background-color: blue; */
 }
 
-#left-section > div {
+#left-section>div {
     display: flex;
     height: 30em;
     width: 50%;
     background-color: #8B05CA;
     border-radius: 10px;
-    border: 3px solid #4C4C4C; 
+    border: 3px solid #4C4C4C;
 }
 
-#left-section > div > img {
+#left-section>div>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -198,7 +211,7 @@ display: none;    height: 1.5em;
     /* background-color: red; */
 }
 
-#right-section > div {
+#right-section>div {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -208,22 +221,22 @@ display: none;    height: 1.5em;
     padding-bottom: 1.5em;
 }
 
-#right-section > div > h1 {
+#right-section>div>h1 {
     font-size: 5.0em;
     color: #4D0288;
 }
 
-#span-me{
+#span-me {
     color: #4C4C4C;
 }
 
 
-#right-section > div > h3  {
+#right-section>div>h3 {
     font-size: 1.7em;
     color: hsl(274, 97%, 27%);
 }
 
-#right-section > div > p  {
+#right-section>div>p {
     font-size: 1.5em;
 }
 
@@ -258,7 +271,7 @@ display: none;    height: 1.5em;
     gap: 5em;
 }
 
-#main-experiences > div > div > img {
+#main-experiences>div>div>img {
     height: 8em;
     border-radius: 50%;
 }
@@ -288,7 +301,7 @@ display: none;    height: 1.5em;
     background-color: #8B05CA;
 }
 
-#main-experiences > div > h1 {
+#main-experiences>div>h1 {
     font-size: 5.0em;
     color: #4D0288;
     font-family: "Poppins", sans-serif;
@@ -302,7 +315,7 @@ display: none;    height: 1.5em;
     font-family: "Poppins", sans-serif;
 }
 
-#div-empresa-text{
+#div-empresa-text {
     font-family: "Poppins", sans-serif;
 }
 
@@ -329,7 +342,7 @@ display: none;    height: 1.5em;
     justify-content: center;
 }
 
-#div-tittle-projects > h1 {
+#div-tittle-projects>h1 {
     font-size: 5.0em;
     color: #4D0288;
     font-family: "Poppins", sans-serif;
@@ -337,7 +350,7 @@ display: none;    height: 1.5em;
 
 #div-group-projects {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 5em;
 }
 
@@ -352,14 +365,14 @@ display: none;    height: 1.5em;
     gap: 1em;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 0px 10px 3px #4C4C4C;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
-.div-project > img {
+.div-project>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 20px;    
+    border-radius: 20px;
 
 }
 
@@ -372,28 +385,31 @@ display: none;    height: 1.5em;
     display: flex;
     flex-direction: column;
     gap: 2em;
-    background-color: #0D1117 ;
+    background-color: #0D1117;
     z-index: 2;
-    opacity: 0; /* Inicialmente invisível */
-    transition: opacity 0.3s ease; /* Transição suave */
+    opacity: 0;
+    /* Inicialmente invisível */
+    transition: opacity 0.3s ease;
+    /* Transição suave */
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;    
-    color: white; /* Cor do texto da cobertura */
+    border-radius: 20px;
+    color: white;
+    /* Cor do texto da cobertura */
 }
 
-.cover > h1 {
+.cover>h1 {
     font-size: 2.0em;
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
-.cover > p {
+.cover>p {
     font-size: 1.2em;
     width: 75%;
-    font-family:sans-serif;
-} 
+    font-family: sans-serif;
+}
 
 .stack {
     display: flex;
@@ -401,7 +417,7 @@ display: none;    height: 1.5em;
     width: 100%;
 }
 
-.stack > img {
+.stack>img {
 
     height: 3em;
 }
@@ -428,7 +444,7 @@ display: none;    height: 1.5em;
     justify-content: center;
 }
 
-#div-tittle-skills > h1 {
+#div-tittle-skills>h1 {
     font-size: 5.0em;
     color: #4D0288;
     font-family: "Poppins", sans-serif;
@@ -451,18 +467,19 @@ display: none;    height: 1.5em;
     gap: 1em;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 0px 10px 3px #4C4C4C;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
-.div-skill > img {
+.div-skill>img {
     height: 5em;
 }
 
-.div-skill > p {
+.div-skill>p {
     font-size: 1.5em;
     color: #4C4C4C;
     font-family: "PT Sans Caption", sans-serif;
 }
+
 
 @media (max-width: 350px) {
     #btn-subir-home {
@@ -470,7 +487,7 @@ display: none;    height: 1.5em;
         width: 5em;
     }
 
-    #btn-subir-home > img {
+    #btn-subir-home>img {
         height: 3em;
     }
 
@@ -494,7 +511,7 @@ display: none;    height: 1.5em;
         justify-content: center;
     }
 
-    #nome-e-cargo > h1 {
+    #nome-e-cargo>h1 {
         width: 67%;
         line-height: 1.1;
         font-size: 3.5em;
@@ -502,7 +519,7 @@ display: none;    height: 1.5em;
 
     }
 
-    #nome-e-cargo > p {
+    #nome-e-cargo>p {
         text-align: center;
         font-size: 1.5em;
     }
@@ -514,16 +531,16 @@ display: none;    height: 1.5em;
         justify-content: center;
     }
 
-    #div-btn-talk > a {
+    #div-btn-talk>a {
         font-size: 1.0em;
         width: 11em;
         height: 2.5em;
         gap: 0.5em;
     }
 
-    #div-btn-talk > a >  img {
-     height: 1.0em;
-        }
+    #div-btn-talk>a>img {
+        height: 1.0em;
+    }
 
     #main-about-me {
         flex-direction: column;
@@ -535,7 +552,7 @@ display: none;    height: 1.5em;
         height: 50%;
     }
 
-    #left-section > div {
+    #left-section>div {
         width: 90%;
         height: 20em;
     }
@@ -546,29 +563,29 @@ display: none;    height: 1.5em;
 
     }
 
-    #right-section > div {
+    #right-section>div {
         width: 80%;
         gap: 0.3em;
     }
 
-    #right-section > div > h1 {
+    #right-section>div>h1 {
         font-size: 3.0em;
     }
 
-    #right-section > div > h3 {
+    #right-section>div>h3 {
         font-size: 1.2em;
     }
 
-    #right-section > div > p {
+    #right-section>div>p {
         font-size: 1.0em;
     }
-    
-    #main-experiences > div > h1 {
+
+    #main-experiences>div>h1 {
         text-align: center;
         font-size: 3.0em;
     }
 
-    #main-experiences > div > div > img {
+    #main-experiences>div>div>img {
         height: 4em;
     }
 
@@ -583,7 +600,7 @@ display: none;    height: 1.5em;
         gap: 2em;
     }
 
-.div-empresa {
+    .div-empresa {
         padding: 1em;
         gap: 0em;
         width: 90%;
@@ -594,14 +611,14 @@ display: none;    height: 1.5em;
     .div-empresa-texts {
         font-size: 0.7em;
     }
-    
-    .div-empresa-text{
+
+    .div-empresa-text {
         font-family: "Poppins", sans-serif;
         font-size: 0.7em;
     }
-    
 
-    #main-projects > div > h1 {
+
+    #main-projects>div>h1 {
         font-size: 3.0em;
     }
 
@@ -615,27 +632,27 @@ display: none;    height: 1.5em;
 
     .div-project {
         height: 20em;
-        width: 95%; 
+        width: 95%;
     }
 
     .cover {
         gap: 1em;
     }
 
-    .cover > h1 {
+    .cover>h1 {
         font-size: 1.5em;
     }
 
-    .cover > p {
+    .cover>p {
         font-size: 1em;
         width: 90%;
     }
 
-    .stack > img {
+    .stack>img {
         height: 2.3em;
     }
-    
-    #div-tittle-skills > h1 {
+
+    #div-tittle-skills>h1 {
         font-size: 3.0em;
     }
 
@@ -654,17 +671,641 @@ display: none;    height: 1.5em;
 
     }
 
-    .div-skill > img {
+    .div-skill>img {
         height: 3em;
     }
 
-    .div-skill > p {
+    .div-skill>p {
         font-size: 1.0em;
         text-wrap: wrap;
     }
 
     .full-width {
-        grid-column: span 2; /* Faz a div ocupar todas as colunas */
+        grid-column: span 2;
+        /* Faz a div ocupar todas as colunas */
     }
 
 }
+
+
+@media ((min-width: 350px) and (max-width: 380px)) {
+    #btn-subir-home {
+        height: 5em;
+        width: 5em;
+    }
+
+    #btn-subir-home>img {
+        height: 3em;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 0px 10px;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+
+    #main-home {
+        height: 33em;
+        align-items: center;
+    }
+
+    #nome-e-cargo {
+        padding-left: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nome-e-cargo>h1 {
+        width: 67%;
+        line-height: 1.1;
+        font-size: 3.5em;
+        text-align: justify;
+
+    }
+
+    #nome-e-cargo>p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #div-btn-talk {
+        padding-left: 0;
+        padding-top: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-btn-talk>a {
+        font-size: 1.0em;
+        width: 11em;
+        height: 2.5em;
+        gap: 0.5em;
+    }
+
+    #div-btn-talk>a>img {
+        height: 1.0em;
+    }
+
+    #main-about-me {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #left-section {
+        width: 100%;
+        height: 50%;
+    }
+
+    #left-section>div {
+        width: 90%;
+        height: 20em;
+    }
+
+    #right-section {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    #right-section>div {
+        width: 80%;
+        gap: 0.3em;
+    }
+
+    #right-section>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #right-section>div>h3 {
+        font-size: 1.2em;
+    }
+
+    #right-section>div>p {
+        font-size: 1.0em;
+    }
+
+    #main-experiences>div>h1 {
+        text-align: center;
+        font-size: 3.0em;
+    }
+
+    #main-experiences>div>div>img {
+        height: 4em;
+    }
+
+    #div-group {
+        padding: 2em;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .div-group-empresa {
+        height: 6em;
+        gap: 2em;
+    }
+
+    .div-empresa {
+        padding: 1em;
+        gap: 0em;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .div-empresa-texts {
+        font-size: 0.7em;
+    }
+
+    .div-empresa-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.7em;
+    }
+
+
+    #main-projects>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-projects {
+        grid-template-columns: 1fr;
+        padding-left: 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-project {
+        height: 20em;
+        width: 95%;
+    }
+
+    .cover {
+        gap: 1em;
+    }
+
+    .cover>h1 {
+        font-size: 1.5em;
+    }
+
+    .cover>p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .stack>img {
+        height: 2.3em;
+    }
+
+    #div-tittle-skills>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-skills {
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .div-skill {
+        height: 10em;
+        width: 100%;
+
+    }
+
+    .div-skill>img {
+        height: 3em;
+    }
+
+    .div-skill>p {
+        font-size: 1.0em;
+        text-wrap: wrap;
+    }
+
+    .full-width {
+        grid-column: span 2;
+        /* Faz a div ocupar todas as colunas */
+    }
+}
+
+/* ENTRE 380 E 415 */
+@media ((min-width: 380px) and (max-width: 415px)) {
+    #btn-subir-home {
+        height: 5em;
+        width: 5em;
+    }
+
+    #btn-subir-home>img {
+        height: 3em;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 0px 10px;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+
+    #main-home {
+        height: 33em;
+        align-items: center;
+    }
+
+    #nome-e-cargo {
+        padding-left: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nome-e-cargo>h1 {
+        width: 67%;
+        line-height: 1.1;
+        font-size: 3.5em;
+        text-align: justify;
+
+    }
+
+    #nome-e-cargo>p {
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 0.6em;
+    }
+
+    #div-btn-talk {
+        padding-left: 0;
+        padding-top: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-btn-talk>a {
+        font-size: 1.0em;
+        width: 11em;
+        height: 2.5em;
+        gap: 0.5em;
+    }
+
+    #div-btn-talk>a>img {
+        height: 1.0em;
+    }
+
+    #main-about-me {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #left-section {
+        width: 100%;
+        height: 50%;
+    }
+
+    #left-section>div {
+        width: 90%;
+        height: 20em;
+    }
+
+    #right-section {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    #right-section>div {
+        width: 80%;
+        gap: 0.3em;
+    }
+
+    #right-section>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #right-section>div>h3 {
+        font-size: 1.2em;
+    }
+
+    #right-section>div>p {
+        font-size: 1.0em;
+    }
+
+    #main-experiences>div>h1 {
+        text-align: center;
+        font-size: 3.0em;
+    }
+
+    #main-experiences>div>div>img {
+        height: 4em;
+    }
+
+    #div-group {
+        padding: 2em;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .div-group-empresa {
+        height: 6em;
+        gap: 2em;
+    }
+
+    .div-empresa {
+        padding: 1em;
+        gap: 0em;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .div-empresa-texts {
+        font-size: 0.7em;
+    }
+
+    .div-empresa-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.7em;
+    }
+
+
+    #main-projects>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-projects {
+        grid-template-columns: 1fr;
+        padding-left: 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-project {
+        height: 20em;
+        width: 95%;
+    }
+
+    .cover {
+        gap: 1em;
+    }
+
+    .cover>h1 {
+        font-size: 1.5em;
+    }
+
+    .cover>p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .stack>img {
+        height: 2.3em;
+    }
+
+    #div-tittle-skills>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-skills {
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .div-skill {
+        height: 10em;
+        width: 100%;
+
+    }
+
+    .div-skill>img {
+        height: 3em;
+    }
+
+    .div-skill>p {
+        font-size: 1.0em;
+        text-wrap: wrap;
+    }
+
+    .full-width {
+        grid-column: span 2;
+        /* Faz a div ocupar todas as colunas */
+    }
+
+}
+
+/* ENTRE 415 E 450 */
+
+@media ((min-width: 415px) and (max-width: 480px)) {
+    #btn-subir-home {
+        height: 5em;
+        width: 5em;
+    }
+
+    #btn-subir-home>img {
+        height: 3em;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 0px 10px;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+
+    #main-home {
+        height: 33em;
+    }
+
+    #nome-e-cargo {
+        padding-left: 2em;
+
+    }
+
+    #nome-e-cargo>h1 {
+        width: 67%;
+        line-height: 1.1;
+        font-size: 3.5em;
+        text-align: justify;
+
+    }
+
+    #nome-e-cargo>p {
+        font-size: 1.5em;
+        letter-spacing: 0.6em;
+    }
+
+    #div-btn-talk {
+        padding-left: 2em;
+        padding-top: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-btn-talk>a {
+        font-size: 1.0em;
+        width: 11em;
+        height: 2.5em;
+        gap: 0.5em;
+    }
+
+    #div-btn-talk>a>img {
+        height: 1.0em;
+    }
+
+    #main-about-me {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #left-section {
+        width: 100%;
+        height: 50%;
+    }
+
+    #left-section>div {
+        width: 90%;
+        height: 20em;
+    }
+
+    #right-section {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    #right-section>div {
+        width: 80%;
+        gap: 0.3em;
+    }
+
+    #right-section>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #right-section>div>h3 {
+        font-size: 1.2em;
+    }
+
+    #right-section>div>p {
+        font-size: 1.0em;
+    }
+
+    #main-experiences>div>h1 {
+        text-align: center;
+        font-size: 3.0em;
+    }
+
+    #main-experiences>div>div>img {
+        height: 4em;
+    }
+
+    #div-group {
+        padding: 2em;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .div-group-empresa {
+        height: 6em;
+        gap: 2em;
+    }
+
+    .div-empresa {
+        padding: 1em;
+        gap: 0em;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .div-empresa-texts {
+        font-size: 0.7em;
+    }
+
+    .div-empresa-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.7em;
+    }
+
+    #main-projects>div>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-projects {
+        grid-template-columns: 1fr;
+        padding-left: 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-project {
+        height: 20em;
+        width: 95%;
+    }
+
+    .cover {
+        gap: 1em;
+    }
+
+    .cover>h1 {
+        font-size: 1.5em;
+    }
+
+    .cover>p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .stack>img {
+        height: 2.3em;
+    }
+
+    #div-tittle-skills>h1 {
+        font-size: 3.0em;
+    }
+
+    #div-group-skills {
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .div-skill {
+        height: 10em;
+        width: 100%;
+    }
+
+    .div-skill>img {
+        height: 3em;
+    }
+
+    .div-skill>p {
+        font-size: 1.0em;
+        text-wrap: wrap;
+    }
+
+    .full-width {
+        grid-column: span 2;
+        /* Faz a div ocupar todas as colunas */
+    }
+}
+
+/* ENTRE 450 E 480 */
+

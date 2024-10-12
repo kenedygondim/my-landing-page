@@ -21,10 +21,7 @@
     cursor: pointer;
     z-index: 1000;
     opacity: 0;
-    /* Inicialmente invisível */
     transition: opacity 0.3s ease;
-    /* Transição suave para a opacidade */
-    /* Garante que o botão fique acima de outros elementos */
 }
 
 #btn-subir-home>img {
@@ -42,40 +39,25 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    /* Ajusta a imagem para cobrir todo o fundo */
 }
-
 nav {
     padding-top: 1.1em;
 }
-
-
-
 nav ul {
     list-style-type: none;
-    /* Remove os marcadores */
     padding: 0;
     margin: 0;
-    /* Remove o padding padrão */
     padding-top: 1%;
     display: flex;
-    /* Alinha os itens na horizontal */
     justify-content: center;
-    /* Centraliza os itens */
     gap: 10%;
-    /* Espaçamento entre os itens */
-
-    /* Remove a margem padrão */
 }
 
 a {
     text-decoration: none;
-    /* Remove o sublinhado dos links */
     color: black;
     font-family: "Tauri", sans-serif;
-    /* Cor do texto */
     font-size: 1.3em;
-    /* Tamanho da fonte */
 }
 
 #main-home {
@@ -698,6 +680,9 @@ a {
 
 
 @media ((min-width: 350px) and (max-width: 380px)) {
+
+    
+
     #btn-subir-home {
         height: 5em;
         width: 5em;
@@ -905,6 +890,15 @@ a {
 /* ENTRE 380 E 415 */
 @media ((min-width: 380px) and (max-width: 415px)) {
 
+    #main-home {
+        height: 40em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+
+
     #btn-subir-home>img {
         height: 3em;
     }
@@ -920,7 +914,6 @@ a {
     }
 
     #main-home {
-
         align-items: center;
     }
 
@@ -1302,5 +1295,104 @@ a {
     }
 }
 
-/* ENTRE 450 E 480 */
+@media((min-width: 800px) and (max-width: 1280px)) {
+    #btn-subir-home {
+        height: 6em;
+        width: 6em;
+    }
+    #btn-subir-home>img {
+        height: 3em;
+    }
+    a {
+        font-size: 1em;
+    }
+    #main-home {
+        height: 45em;
+    }
+    #nome-e-cargo > h1 {
+        font-size: 4.2em;
+    }
+    #nome-e-cargo > p {
+        font-size: 3em;
+    }
+    #div-btn-talk {
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+    #div-btn-talk > a {
+        font-size: 1em;
+        height: 3em;
+        width: 10em;
+    }
+    #right-section>div>h1 {
+        font-size: 4.0em;
+    }
+    #right-section>div>h3 {
+        font-size: 1.4em;
+    }
+    #right-section>div>p {
+        font-size: 1.3em;
+    }
+    #right-section {
+        width: 60%;
+    }
+    #left-section {
+        width: 40%;
+    }
+    #left-section > div {
+        height: 25em;
+        width: 70%;
+    }
+    #main-experiences > div > h1 {
+        font-size: 4.1em;
+    }
+    #main-experiences {
+        height: 45em;
+    }
+    #main-experiences>div>div>img {
+        height: 6em;
+    }
+    .div-group-empresa {
+        height: 7em;
+        gap: 5em;
+    }
+    .div-empresa {
+        width: 70%;
+        font-size: 0.8em;
+    }
+    #div-tittle-projects>h1 {
+        font-size: 4.1em;
+        color: #4D0288;
+        font-family: "Poppins", sans-serif;
+    }
+    .div-project {
+        height: 20em;
+        width: 25em;
+    }
+    .cover > h1 {
+        font-size: 1.3em;
+    }
+    .cover > p {
+        font-size: 0.8em;
+    }
+    .stack > img {
+        height: 2em;
+    } 
+    #div-tittle-skills>h1 {
+        font-size: 4.1em;
+    }
+    .div-skill {
+        height: 10em;
+        width: 15em;
+    }
+    .div-skill > img {
+        height: 3em;
+    }
+    .div-skill>p {
+        font-size: 1.2em;
+    }
+    #aws-img {
+        height: 2em;
+    }
+}
 
